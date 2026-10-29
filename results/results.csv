@@ -1,0 +1,9 @@
+part,model,mae_usd,rmse_usd,highest_forecast_usd,direction_accuracy
+1: price windows,Naive: tomorrow = today,14.42,20.59,,
+1: price windows,"XGBoost (price windows, original)",332.48,398.55,157.12,
+1: price windows,Random forest (price windows),331.02,397.57,158.72,
+2: returns,Naive: tomorrow = today,14.42,20.59,,
+2: returns,Always predict 'up',,,,0.54
+2: returns,Ridge regression,14.4,20.56,,0.529
+2: returns,Random forest,14.83,20.92,,0.504
+2: returns,XGBoost,15.56,21.73,,0.477
